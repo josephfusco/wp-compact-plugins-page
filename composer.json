@@ -1,0 +1,19 @@
+{
+  "name": "josephfusco/wp-compact-plugin-view",
+  "description": "View long lists of plugins with ease on the wp-admin plugins page.",
+  "keywords": ["wordpress", "plugin", "tab"],
+  "homepage": "https://github.com/josephfusco/wp-compact-plugin-view",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joseph Fusco",
+      "email": "hello@josephfus.co",
+      "homepage": "http://josephfus.co"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.0.6"
+  }
+}

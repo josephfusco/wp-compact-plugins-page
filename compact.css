@@ -1,0 +1,50 @@
+
+@media screen and (min-width: 783px) {
+    .plugins .column-primary {
+        position: relative;
+    }
+    .plugins .inactive td,
+    .plugins .active td {
+        padding: 0 9px;
+    }
+    .plugins .active td {
+        padding: 0 9px;
+    }
+    .plugins tbody th.check-column {
+        padding: 0 0 0 2px;
+    }
+    .plugins .desc .plugin-description {
+        display: none;
+    }
+    td.plugin-title strong {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+        line-height: 2;
+    }
+    .plugins .row-actions {
+        display: inline-block;
+        vertical-align: middle;
+        padding-bottom: 0;
+        padding-left: 4px;
+        position: static;
+    }
+    .plugins .row-actions:before {
+        content: ' | ';
+        color: #ddd;
+    }
+    .plugins tbody th.check-column input[type=checkbox] {
+        margin-top: 5px;
+    }
+    .plugins .second {
+        padding: 0;
+        line-height: 2;
+    }
+    .plugins tr.inactive td > * {
+        transition: 0.01s ease;
+        opacity: 0.5;
+    }
+    .plugins tr.inactive:hover td > * {
+        opacity: 1;
+    }
+}
