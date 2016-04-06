@@ -21,6 +21,10 @@
         vertical-align: middle;
         margin-bottom: 0;
         line-height: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 45%;
     }
     .plugins .row-actions {
         display: inline-block;
@@ -29,9 +33,10 @@
         padding-left: 4px;
         position: static;
     }
-    .plugins .row-actions:before {
+    .plugins .row-actions:before,
+    .plugins .row-actions:after {
         content: ' | ';
-        color: #ddd;
+        color: #DDD;
     }
     .plugins tbody th.check-column input[type=checkbox] {
         margin-top: 5px;
@@ -40,11 +45,8 @@
         padding: 0;
         line-height: 2;
     }
-    .plugins tr.inactive td > * {
-        transition: 0.01s ease;
-        opacity: 0.5;
-    }
-    .plugins tr.inactive:hover td > * {
-        opacity: 1;
+    .plugins tr:hover td,
+    .plugins tr:hover th {
+        background-color: rgba(0,0,0,.05);
     }
 }
