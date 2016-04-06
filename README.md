@@ -4,4 +4,4 @@
 
 View long lists of plugins with ease on the wp-admin plugins page.
 
-![screenshot-1](https://cloud.githubusercontent.com/assets/6676674/14322636/972ee60c-fbeb-11e5-8ecd-56fd733bf5d5.png)
+![screenshot-1](https://cloud.githubusercontent.com/assets/6676674/14325977/e17ab660-fbf9-11e5-8d11-99f5e086cff0.png)
