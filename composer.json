@@ -1,9 +1,9 @@
 {
-  "name": "josephfusco/wp-compact-plugin-view",
+  "name": "josephfusco/wp-compact-plugins-page",
   "description": "View long lists of plugins with ease on the wp-admin plugins page.",
   "keywords": ["wordpress", "plugin", "tab"],
-  "homepage": "https://github.com/josephfusco/wp-compact-plugin-view",
-  "license": "MIT",
+  "homepage": "https://github.com/josephfusco/wp-compact-plugins-page",
+  "license": "GPL",
   "authors": [
     {
       "name": "Joseph Fusco",
