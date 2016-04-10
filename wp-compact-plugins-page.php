@@ -3,7 +3,7 @@
 Plugin Name:    WP Compact Plugins Page
 Plugin URI:     http://github.com/josephfusco/wp-compact-plugins-page/
 Description:    View long lists of plugins with ease on the wp-admin plugins page.
-Version:        1.1
+Version:        1.1.1
 Author:         Joseph Fusco
 Author URI:     http://josephfus.co/
 License:        GPLv2 or later
